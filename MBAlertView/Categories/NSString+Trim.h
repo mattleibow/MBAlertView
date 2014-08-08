@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface NSString (Trim)
 - (NSString*)stringByTruncatingToSize:(CGSize)size withFont:(UIFont*)font addQuotes:(BOOL)addQuotes;
